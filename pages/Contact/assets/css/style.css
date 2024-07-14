@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Poppins" sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Section styling */
+.section {
+  background: #ffe8fa;
+  min-height: 100vh;
+  display: block;
+  padding: 60px 30px;
+  margin-left: 270px; /* Adjust this margin to match the width of your aside */
+}
+
+/* Aside styling */
+.aside {
+  width: 270px;
+  background: #fdf9ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 30px;
+  height: 100%;
+  border-right: 1px solid #e8dfec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.aside .logo {
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.aside .logo a {
+  color: #302e4d;
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+  color: #c31a6e;
+}
+
+.aside .logo a span {
+  font-family: "Clicker Script", cursive;
+  font-size: 40px;
+  color: #302e4d;
+}
+
+.aside .logo a::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  bottom: 0;
+  left: 0;
+}
+
+.aside .logo a::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  top: 0;
+  right: 0;
+}
+
+.aside .nav-toggler {
+  height: 40px;
+  width: 45px;
+  border: 1px solid #e8dfec;
+  cursor: pointer;
+  position: fixed;
+  left: 300px;
+  top: 20px;
+  border-radius: 5px;
+  background: #fdf9ff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside .nav-toggler span {
+  height: 2px;
+  width: 18px;
+  background: black;
+  display: inline-block;
+  position: relative;
+}
+
+.aside .nav-toggler span::before {
+  content: "";
+  height: 2px;
+  width: 18px;
+  background: black;
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+
+.aside .nav-toggler span::after {
+  content: "";
+  height: 2px;
+  width: 18px;
+  background: black;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.aside .nav {
+  margin-top: 50px;
+}
+
+.aside .nav li {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.aside .nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  border-bottom: 1px solid rgb(206, 199, 199);
+  color: black;
+  padding: 5px 15px;
+}
+
+.aside .nav li a.active {
+  color: #c31a6e;
+}
+
+.aside .nav li a i {
+  margin-right: 15px;
+}
+
+/*contact section*/
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #c31a6e;
+  font-size: 2rem;
+  font-family: "Poppins";
+  background: #ffe8fa;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #c31a6e;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: "Poppins";
+}
+
+.contact-form {
+  background-color: #ded9dd;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 200;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 10px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #c31a6e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: start;
+}
+
+.contact-form button:hover {
+  background-color: #40393d;
+}
+
+/*footer*/
+
+footer {
+  background-color: #9f9599;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 250px;
+}
+
+.social-media {
+  margin-top: 1rem; /* Adjust spacing from the footer content */
+}
+
+.social-media a {
+  color: pink; /* Icon color */
+  font-size: 1.5rem; /* Icon size */
+  margin: 0 0.5rem; /* Adjust horizontal spacing between icons */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.social-media a:hover {
+  color: #e3e3e3; /* Color on hover */
+}
+
+.social-media a:hover i {
+  transform: scale(1.2); /* Scale up the icon on hover */
+}
