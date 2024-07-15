@@ -164,13 +164,15 @@ ul {
   padding: 20px;
   border: 1px solid #e8dfec;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #e9cfcfb8;
   width: 100%;
 }
 
 .application-expertise-section .section-title {
   font-size: 30px;
-  color: var(--text-black-900);
+  font-family: "Roboto";
+  letter-spacing: 1rem;
+  color: #f8ede3;
   margin-bottom: 20px;
   text-align: center;
   background: #c31a6e26;
@@ -224,12 +226,14 @@ ul {
   padding: 20px;
   border: 1px solid #e8dfec;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #e9cfcfb8;
   width: 100%;
 }
 .education-section h3 {
   font-size: 30px;
-  color: var(--text-black-900);
+  font-family: "Roboto";
+  letter-spacing: 1rem;
+  color: #f8ede3;
   margin-bottom: 20px;
   text-align: center;
   background: #c31a6e26;
@@ -271,11 +275,13 @@ ul {
 /*Hobbies section*/
 .interest {
   font-size: 25px;
-  color: var(--text-black-900);
+  font-family: "Roboto";
+  letter-spacing: 1rem;
+  color: white;
   margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
-  background: #c31a6f1a;
+  background: rgba(255, 192, 203, 0.56);
   border: 1px solid #e8dfec;
   padding: 10px;
 }
@@ -296,7 +302,7 @@ ul {
   border-radius: 8px;
   padding: 20px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #e9cfcfb8;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 

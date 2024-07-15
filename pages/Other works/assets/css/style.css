@@ -236,6 +236,7 @@ ul {
 
 .description h2 {
   margin-top: 0;
+  font-size: 2rem;
   font-family: "Poppins";
   color: var(--text-black-700);
 }
@@ -243,6 +244,7 @@ ul {
 .description p {
   margin: 0.5rem 0 0;
   font-size: 1rem;
+  font-family: "Roboto";
   font-weight: 700;
 }
 
