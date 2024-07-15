@@ -50,11 +50,9 @@
 
 ## Overview
 
-
 This project involves building a personal website that showcases design skills and web development knowledge. The website includes five distinct pages, each featuring unique layouts and functionalities. The aim is to create a professional portfolio that highlights skills, past projects, and creativity. It will serve as a digital resume and a platform to demonstrate proficiency in web design and development.
 
 The purpose of this project is to apply the knowledge gained throughout the course in a practical, creative, and visual manner. By developing this portfolio, the goal is to demonstrate proficiency in HTML and CSS, as well as showcase the ability to design and implement a fully functional website. This project serves both as a learning experience and a professional tool to present to potential employers or clients.
-
 
 ### Key Components
 
@@ -104,9 +102,26 @@ WD-ProjectName
 └─ readme.md
 ```
 
-## Resources
+### My Projects
 
-<!-- TODO: Add References -->
+Explore my project repository:
+
+- [WD-Seatwork 2](https://github.com/Maerona03/WD-seatwork2.git)
+- [WD-Hands On 2](https://github.com/Maerona03/WD-Handson2.git)
+- [WD-Seatwork 3](https://github.com/Maerona03/WD-sw3.git)
+- [WD-Seatwork 4](https://github.com/Maerona03/WD-seatwork4.git)
+
+## WakaTime
+
+### Coding Activity
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f030b-8e47-42e2-9e2a-52b75c89a316/94333f95-71f7-4e85-9e0f-c0ddafce3f0b.png" height=300/></a>
+
+### Languages
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f030b-8e47-42e2-9e2a-52b75c89a316/71dffc35-eedc-426a-9a5e-3818866b55c6.png" height=300/></a>
+
+## Resources
 
 | Title       | Purpose                                                     | Link                                                 |
 | ----------- | ----------------------------------------------------------- | ---------------------------------------------------- |
@@ -114,9 +129,3 @@ WD-ProjectName
 | GoogleFont  | Use some Fonts like poppins and cursive font style.         | https://fonts.googlecom/                             |
 | AwesomeFont | Use some icons for social media and footer.                 | https://fontawesome.com/icons/user?f=classic&s=solid |
 | Github      | Get the links from my previous projects.                    | https://github.com/Maerona03                         |
-
-
-
-### WakaTime Integration
-Track my coding activity on:
-[WakaTime](https://wakatime.com/projects/WD-finalActivity )
