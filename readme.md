@@ -7,7 +7,7 @@
   <a href="https://github.com/zyx-0314/">
     <img src="./assets/img/logo (3).png" alt="logo" width="160" height="160">
   </a>
-  <h3 align="center">Personal Website</h3>
+  <h3 align="center">Final Activity: Personal Website</h3>
 </div>
 <div align="center">
  This project is a personal website that showcases my design skills and web development knowledge. The website has 5 pages, including all the past projects I have worked on. It will serve as a portfolio that allows you to learn more about me.
@@ -50,24 +50,13 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
 
-Description of the project in details.
+This project involves building a personal website that showcases design skills and web development knowledge. The website includes five distinct pages, each featuring unique layouts and functionalities. The aim is to create a professional portfolio that highlights skills, past projects, and creativity. It will serve as a digital resume and a platform to demonstrate proficiency in web design and development.
 
-Guiding Question:
+The purpose of this project is to apply the knowledge gained throughout the course in a practical, creative, and visual manner. By developing this portfolio, the goal is to demonstrate proficiency in HTML and CSS, as well as showcase the ability to design and implement a fully functional website. This project serves both as a learning experience and a professional tool to present to potential employers or clients.
 
-- What is the project:
-  This project builds a personal website that demonstrates design skills and web development knowledge. The website include 5 pages, showcasing distinct layouts for various features. It will serve as a portfolio showcasing your skills and past projects.
-- Whats the purpose:
-  The purpose of this project was to show and apply all the knowledge we learned in this subject and create a creative and visual portfolio,demonstrating our proficiency in HTML and CSS..
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
-
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 
 - MultiPage Website
 - Animated Cards
@@ -76,8 +65,6 @@ Guiding Question:
 - Interactive Features
 
 ### Technology
-
-<!-- TODO: List of Technology Used -->
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -127,3 +114,9 @@ WD-ProjectName
 | GoogleFont  | Use some Fonts like poppins and cursive font style.         | https://fonts.googlecom/                             |
 | AwesomeFont | Use some icons for social media and footer.                 | https://fontawesome.com/icons/user?f=classic&s=solid |
 | Github      | Get the links from my previous projects.                    | https://github.com/Maerona03                         |
+
+
+
+### WakaTime Integration
+Track my coding activity on:
+[WakaTime](https://wakatime.com/projects/WD-finalActivity )
