@@ -57,9 +57,9 @@ Description of the project in details.
 
 Guiding Question:
 
-- What is the project
+- What is the project:
   This project builds a personal website that demonstrates design skills and web development knowledge. The website include 5 pages, showcasing distinct layouts for various features. It will serve as a portfolio showcasing your skills and past projects.
-- Whats the purpose
+- Whats the purpose:
   The purpose of this project was to show and apply all the knowledge we learned in this subject and create a creative and visual portfolio,demonstrating our proficiency in HTML and CSS..
 - What are key components
 - What technology used and how it is used
