@@ -5,21 +5,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/_Name Logo.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/cutepanda.png" alt="Panda" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Personal Website</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
  This project is a personal website that showcases my design skills and web development knowledge. The website has 5 pages, including all the past projects I have worked on. It will serve as a portfolio that allows you to learn more about me.
 </div>
 
 <br />
-
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
 ![](https://visit-counter.vercel.app/counter.png?page=Maerona03/WD-FinalActivity)
 
@@ -64,7 +58,9 @@ Description of the project in details.
 Guiding Question:
 
 - What is the project
+  This project builds a personal website that demonstrates design skills and web development knowledge. The website include 5 pages, showcasing distinct layouts for various features. It will serve as a portfolio showcasing your skills and past projects.
 - Whats the purpose
+  The purpose of this project was to show and apply all the knowledge we learned in this subject and create a creative and visual portfolio,demonstrating our proficiency in HTML and CSS..
 - What are key components
 - What technology used and how it is used
 
@@ -73,9 +69,11 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Animated Cards
+- Hover Effects
+- Interactive Elements
+- Interactive Features
 
 ### Technology
 
@@ -83,7 +81,6 @@ Guiding Question:
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -124,6 +121,9 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title       | Purpose                                                     | Link                                                 |
+| ----------- | ----------------------------------------------------------- | ---------------------------------------------------- |
+| Youtube     | Get some ideas about design and styling the a landing page. | https://youtu.be/zJE-ze4TfXc?si=l35XdIjwss02WwcZ     |
+| GoogleFont  | Use some Fonts like poppins and cursive font style.         | https://fonts.googlecom/                             |
+| AwesomeFont | Use some icons for social media and footer.                 | https://fontawesome.com/icons/user?f=classic&s=solid |
+| Github      | Get the links from my previous projects.                    | https://github.com/Maerona03                         |
