@@ -158,6 +158,65 @@ ul {
   font-weight: 500;
   line-height: 40px;
 }
+/*expertise section*/
+.application-expertise-section {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #e8dfec;
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.application-expertise-section .section-title {
+  font-size: 30px;
+  color: var(--text-black-900);
+  margin-bottom: 20px;
+  text-align: center;
+  background: #c31a6e26;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.expertise-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.expertise-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 150px;
+  border: 1px solid #e8dfec;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background-color: #c31a6e26;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.expertise-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-item h4 {
+  font-size: 20px;
+  color: var(--text-black-700);
+  margin-top: 15px;
+  font-family: "Poppins";
+}
+
+.expertise-logo {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
 /*education start*/
 /* Education section styling */
 .education-section {
@@ -170,10 +229,11 @@ ul {
 }
 .education-section h3 {
   font-size: 30px;
-  color: #302e4d;
+  color: var(--text-black-900);
   margin-bottom: 20px;
   text-align: center;
-  background: #f2f2f2;
+  background: #c31a6e26;
+  padding: 10px;
 }
 .education-items {
   display: flex;
@@ -190,7 +250,7 @@ ul {
   border-radius: 8px;
   padding: 20px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #c31a6e26;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .education-item:hover {
@@ -199,7 +259,7 @@ ul {
 }
 .education-item h4 {
   font-size: 25px;
-  color: #c31a6e;
+  color: var(--text-black-700);
   margin-bottom: 15px;
 }
 .education-details {
@@ -211,12 +271,13 @@ ul {
 /*Hobbies section*/
 .interest {
   font-size: 25px;
-  color: #302e4d;
+  color: var(--text-black-900);
   margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
-  background: #f2f2f2;
-  border: 1px solid rgb(255, 255, 255);
+  background: #c31a6f1a;
+  border: 1px solid #e8dfec;
+  padding: 10px;
 }
 
 .hobbies-items {
@@ -231,11 +292,11 @@ ul {
   align-items: center;
   flex: 1;
   min-width: 250px;
-  border: 1px solid #ffe8fa;
+  border: 2px solid #c31a6f11;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -246,7 +307,7 @@ ul {
 
 .hobby-item h4 {
   font-size: 20px;
-  color: #c31a6e;
+  color: var(--text-black-700);
   margin-bottom: 15px;
   font-family: cursive;
 }
